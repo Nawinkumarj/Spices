@@ -581,7 +581,7 @@ p {
   width: 61px;
   position: absolute;
   content: "";
-  background: url(/images/types/spoon-removebg-preview.png) no-repeat;
+  background: url(../images/types/spoon-removebg-preview.png) no-repeat;
   background-size: cover;
   top: 0;
   left: 50%;
