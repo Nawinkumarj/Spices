@@ -421,6 +421,13 @@ p {
   background: #130d08 url(../images/wood_1.png) repeat;
 }
 @media screen and (max-width: 1200px) {
+  .fh5co-text {
+    padding: 4em 2em;
+  }
+  .fh5co-text h2{
+    margin-top: 20px !important;
+    line-height: 30px !important;
+  }
   #fh5co-about .fh5co-text {
     padding: 1em;
   }
@@ -453,8 +460,8 @@ p {
 }
 #fh5co-about .fh5co-text p span.firstcharacter {
   float: left;
-  color: #903;
-  font-size: 75px;
+  color: #607431;
+  font-size: 70px;
   line-height: 60px;
   padding-top: 4px;
   padding-right: 10px;
@@ -462,7 +469,6 @@ p {
   font-style: italic;
   top: -20px;
   position: relative;
-  color: #fff;
   font-family: "Playfair Display", serif;
 }
 #fh5co-about .fh5co-bg {
@@ -580,14 +586,15 @@ p {
   width: 61px;
   position: absolute;
   content: "";
-  background: url(../images/0203-coffee-love.png) no-repeat;
+  background: url(/images/types/spoon-removebg-preview.png) no-repeat;
+  background-size: cover;
   top: 0;
   left: 50%;
   margin-top: -50px;
   margin-left: -24px;
 }
 #fh5co-contact .fh5co-heading .sub-heading {
-  color: #a99c92;
+  color: #92a994;
 }
 #fh5co-contact .fh5co-social {
   padding: 0;

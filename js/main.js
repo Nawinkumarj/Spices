@@ -522,6 +522,23 @@
 
 		}
 	};
+	// Contact validation
+
+	document.getElementById('number').addEventListener('input', function (e) {
+		const input = e.target;
+		const value = input.value.replace(/\D/g, '');
+		if (value.length > 10) {
+			input.value = value.slice(0, 10).replace(/(\d{4})(\d{3})(\d{3})/, '$1-$2-$3'); 
+		} else {
+			input.value = value.replace(/(\d{4})(\d{3})(\d{3})?/, (match, p1, p2, p3) => {
+				if (p3 !== undefined) return `${p1}-${p2}-${p3}`;
+				if (p2 !== undefined) return `${p1}-${p2}`;
+				if (p1 !== undefined) return `${p1}`;
+				return match;
+			});
+		}
+	});
+	
 
 	var footerAnimate = function() {
 		var footer = $('#fh5co-footer');
