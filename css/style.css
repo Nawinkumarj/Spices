@@ -333,23 +333,18 @@ p {
 .fh5co-main-nav .fh5co-logo {
   text-align: center;
   width: 19.33%;
-  font-size: 40px;
+  height: 10px;
   font-family: "Playfair Display", serif;
-  font-weight: 700;
   font-style: italic;
 }
 .fh5co-main-nav .fh5co-logo a {
   position: relative;
-  top: -5px;
   display: inline-block;
 }
-.fh5co-logo .logo-link {
-  display: block;
-  width: 200px; 
+.fh5co-logo .logo-link .logo-img {
+  margin-top: -40px;
+  width: 90px; 
   height: 90px;
-  background: url(/images/Logo/Fastapizzayellow.png) no-repeat center;
-  background-size: 100% 100%;
-  background-size: contain; 
 }
 .fh5co-main-nav .fh5co-menu-2 {
   text-align: left;
